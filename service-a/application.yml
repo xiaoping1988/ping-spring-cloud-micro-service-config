@@ -1,0 +1,8 @@
+logging:
+  level:
+    root: debug
+
+server:
+  port: 6524
+
+#swagger.enable: false
