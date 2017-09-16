@@ -6,17 +6,11 @@ server:
   port: 6522
 
 
-#zuul:
-#  routes:
-#    user-server:
-#      path: /user-server/**
-#      service-id: user-server
-#    notice-server:
-#      path: /notice-server/**
-#      service-id: notice-server
-#    timer-server:
-#      path: /timer-server/**
-#      service-id: timer-server
-#    report-server:
-#      path: /report-server/**
-#      service-id: report-server
+zuul:
+  routes:
+    service-a:
+      path: /service-a/**
+      service-id: service-a
+    service-b:
+      path: /service-b/**
+      service-id: service-b
